@@ -1,0 +1,23 @@
+programa
+{
+    funcao inicio()
+    {
+        real nota
+
+        escreva("Digite a nota do aluno: ")
+        leia(nota)
+
+        se (nota >= 6.0)
+        {
+            escreva("APROVADO")
+        }
+        senao se (nota >= 4.0)
+        {
+            escreva("RECUPERAÇÃO")
+        }
+        senao
+        {
+            escreva("REPROVADO")
+        }
+    }
+}
